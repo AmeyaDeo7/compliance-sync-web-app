@@ -4,10 +4,10 @@ const sql = require('mssql');
 
 // Configuration for Azure SQL database
 const config = {
-    user: 'your_username',
-    password: 'your_password',
-    server: 'your_server',
-    database: 'your_database',
+    user: 'compliancesyncadmin',
+    password: 'Ameya@123',
+    server: 'compliancesync.database.windows.net',
+    database: 'ComplianceSync',
     options: {
         encrypt: true // If using Azure, set to true
     }
@@ -86,7 +86,7 @@ async function getFromDatabase() {
 }
 
 // Button click event
-document.getElementById('yourButtonId').addEventListener('click', async () => {
+document.getElementById('downloadLatest').addEventListener('click', async () => {
     try {
         // Fetch the most recent PDF link from the server
         const response = await fetch('/api/documents/latest');
