@@ -67,6 +67,43 @@ scrapeWebpage(url)
 
 //Button Functionality to be coded below --->
 
+// Function to retrieve PDF links from the database
+async function getFromDatabase() {
+    try {
+        const sql = require('mssql');
+        const config = {
+            // Your database configuration goes here
+        };
+        await sql.connect(config);
+        const request = new sql.Request();
+        const result = await request.query('SELECT Link FROM Documents');
+        return result.recordset.map(record => record.Link);
+    } catch (error) {
+        console.error('Error retrieving from database:', error);
+    } finally {
+        sql.close();
+    }
+}
+
+// Button click event
+document.getElementById('yourButtonId').addEventListener('click', async () => {
+    try {
+        // Fetch the most recent PDF link from the server
+        const response = await fetch('/api/documents/latest');
+        if (!response.ok) throw new Error('Network response was not ok');
+        const pdfLink = await response.text();
+
+        // Create a download link and click it
+        const link = document.createElement('a');
+        link.href = pdfLink;
+        link.download = 'document.pdf';  // Or use a dynamic filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+});
 
 
 
