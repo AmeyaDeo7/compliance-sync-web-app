@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/Views/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

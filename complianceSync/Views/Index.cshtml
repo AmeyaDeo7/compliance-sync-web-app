@@ -1,10 +1,37 @@
 @model IEnumerable<AzureSqlApp.Models.Message>
 
-<h2>Messages</h2>
+<h1>Compliance Sync</h1>
 
-@foreach (var item in Model)
-{
-    <div>
-        @Html.DisplayFor(modelItem => item.Content)
-    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>PDF Name</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Content)</td>
+                <td>
+                    <a href="@Url.Action("Download", "Messages", new { id = item.Id })" class="btn btn-primary">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button id="downloadLatest" class="btn btn-large btn-primary">Download Newest PDF</button>
+
+@section Scripts {
+    <script>
+        document.getElementById('downloadLatest').addEventListener('click', function() {
+            // Add your JavaScript code to download the newest PDF here.
+        });
+    </script>
 }
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/yourStylesheet.css">
+</head>
