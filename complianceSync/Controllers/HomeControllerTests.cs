@@ -1,5 +1,6 @@
 using Xunit;
-using complianceSync.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using complianceSync.Controller;
 
 namespace complianceSync.Tests.Controllers
 {
