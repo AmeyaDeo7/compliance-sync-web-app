@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "I63wXUZOML9AGkZ5O54Tj1XePAwG/I4gJfOKpXfLSYY=",
+  "Hash": "7ctbB/a+UgK2mqGu6X2R48CdbjSND+RC/2iEqhFjmUs=",
   "Source": "complianceSync",
   "BasePath": "_content/complianceSync",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "complianceSync/wwwroot",
+      "Source": "complianceSync",
+      "ContentRoot": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/",
+      "BasePath": "_content/complianceSync",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/script.js",
+      "SourceId": "complianceSync",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/",
+      "BasePath": "_content/complianceSync",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/script.js"
+    },
+    {
+      "Identity": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/site.css",
+      "SourceId": "complianceSync",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/",
+      "BasePath": "_content/complianceSync",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/site.css"
+    }
+  ]
 }

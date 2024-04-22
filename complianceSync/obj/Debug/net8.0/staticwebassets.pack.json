@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
+    },
+    {
+      "Id": "/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/wwwroot/site.css",
+      "PackagePath": "staticwebassets/site.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.complianceSync.props",
+      "PackagePath": "build\\complianceSync.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.complianceSync.props",
+      "PackagePath": "buildMultiTargeting\\complianceSync.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.complianceSync.props",
+      "PackagePath": "buildTransitive\\complianceSync.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.complianceSync.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

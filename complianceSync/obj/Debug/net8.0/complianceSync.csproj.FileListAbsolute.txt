@@ -138,3 +138,8 @@
 /Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/obj/Debug/net8.0/complianceSync.pdb
 /Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/obj/Debug/net8.0/complianceSync.genruntimeconfig.cache
 /Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/obj/Debug/net8.0/ref/complianceSync.dll
+/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/bin/Debug/net8.0/complianceSync.staticwebassets.runtime.json
+/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/bin/Debug/net8.0/xunit.abstractions.dll
+/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/bin/Debug/net8.0/xunit.assert.dll
+/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/bin/Debug/net8.0/xunit.core.dll
+/Users/ameyadeo/Documents/GitHub/compliance-sync-web-app/complianceSync/bin/Debug/net8.0/xunit.execution.dotnet.dll
